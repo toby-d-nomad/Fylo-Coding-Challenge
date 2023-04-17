@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    background-color: hsl(217, 28%, 15%);
+    padding: 30px 0 20px;
+}
+
+.footer-logo, .logo{
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 15px 30px;
+    list-style-type: none;
+}
+
+.nav-links a{
+    color: #aaa;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.hero-section{
+    background-color: hsl(217, 28%, 15%);
+    background-image: url("assests/images/bg-curvy-desktop.svg");
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section-writing{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hero-section-writing h4{
+    font-size: 40px;
+    font-weight: 500;
+    word-spacing: 1.2px;
+    margin: 20px 0;
+}
+
+.hero-section-writing p{
+    width: 430px;
+    line-height: 25px;
+    margin-bottom: 20px;   
+}
+
+.hero-section-writing button{
+    border: none;
+    color: whitesmoke;
+    padding: 10px 55px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.features-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 50px;
+    position: relative;
+}
+
+.features-section-first-block, .features-section-second-block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-section-first-block-first-div, .features-section-first-block-second-div, .features-section-second-block-first-div,
+.features-section-second-block-second-div{
+    width: 350px;
+    font-size: 16px;
+    word-spacing: 1.15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 40px;
+    padding: 15px 0 30px;
+}
+
+.features-section-first-block-first-div-writing span, .features-section-first-block-first-div-writing span,
+.features-section-first-block-first-div-writing span, .features-section-second-block-second-div-writing span{
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.features-section-first-block-first-div-writing p, .features-section-first-block-first-div-writing p,
+.features-section-first-block-first-div-writing p, .features-section-second-block-second-div-writing p{
+    line-height: 25px;
+    color: #ccc;
+}
+
+.image-text-div{
+    padding-top: 20px;
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-text-div-text-writing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: left;
+}
+
+.image-text-div-text-writing h3{
+    color: whitesmoke;
+    font-weight: 400;
+    margin: 20px 0;
+    font-size: 40px;
+    width: 300px;
+}
+
+.image-text-div-text-writing p{
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.see-how-fylo-works{
+    border-bottom: 1px solid #62E0D9;
+    width: 152px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.see-how-fylo-works span{
+    display: inline-block;
+    text-align: left;
+    color: #62E0D9;
+    cursor: pointer;
+}
+
+.see-how-fylo-works span:hover{
+    color: #777;
+}
+
+.see-how-fylo-works:hover{
+    color: #777;
+    border-bottom: 1px solid #777;
+}
+
+.see-how-fylo-works svg:hover path{
+    /* fill: #777; */
+    color: #777;
+}
+
+.see-how-fylo-works svg{
+    display: inline-block;
+    padding-top: 2px;   
+    margin-left: 4px; 
+    cursor: pointer;
+}
+
+.testimonial-section{
+    background-color: hsl(218, 28%, 13%);
+    background-image: url("assests/images/bg-quotes.png");
+    background-repeat: no-repeat;
+    background-position: 60px 50px;
+    padding: 80px 0 250px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8;
+}
+
+.testimonial-section-first-card, .testimonial-section-second-card{
+    background-color: hsl(219, 30%, 18%);
+    width: 330px;
+    padding: 30px 15px 20px;
+    border-radius: 5px;
+}
+
+.testimonial-section-first-card>p, .testimonial-section-second-card>p{
+    color: whitesmoke;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.testimonial-section-first-card-profile, .testimonial-section-second-card-profile{
+    display: flex;
+}
+
+.testimonial-section-first-card-profile img, .testimonial-section-second-card-profile img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-section-first-card-profile-text h5, .testimonial-section-second-card-profile-text h5{
+    color: whitesmoke;    
+    margin-bottom: 10px;
+}
+
+.testimonial-section-first-card-profile-text p, .testimonial-section-second-card-profile-text p{
+    color: #aaa;
+    font-size: 11px;
+}
+
+.footer-section{
+    background-color: hsl(216, 53%, 9%);
+    padding: 290px 0 0;
+}
+
+.actual-footer-section{
+    padding: 120px 0 0;
+}
+
+.email-modal-section{
+    display: flex;
+    justify-content: center;
+}
+
+.floating-email-modal{
+    background-color: hsl(217, 28%, 15%);
+    margin-top: -230px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 30px;
+    flex-direction: column;
+    box-shadow: 12px 12px 10px #11111142;
+}
+
+.floating-email-modal h4{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.floating-email-modal p{
+    color: whitesmoke;
+    width: 630px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.floating-email-modal-form input{
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: none;
+}
+
+.floating-email-modal-form button{
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer-second-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0;
+}
+
+.location-details{
+    width: 350px;
+    display: flex;
+}
+
+.location-details p{
+    color: whitesmoke;
+    line-height: 20px;
+}
+
+.location-details p{
+    width: 280px;
+    margin-left: 12px;
+}
+
+.tele-details, .mail-details{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -90px;
+}
+
+.tele-details p, .mail-details p{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+.second-footer-nav-links li, .first-footer-nav-links li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.second-footer-nav-links a, .first-footer-nav-links a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.second-footer-nav-links a:hover, .first-footer-nav-links a:hover{
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+.footer-social-links-icons{
+    display: flex;
+}
+
+.footer-social-links-icons i{
+    display: grid;
+    place-items: center;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.footer-social-links-icons i:hover{
+    border: 1px solid #62E0D9;
+    color: #62E0D9;
+}
+
+.footer-social-links-icons a{
+    color: whitesmoke;
+    text-decoration: none;
+}
